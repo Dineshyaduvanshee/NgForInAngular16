@@ -1,0 +1,9 @@
+<h1 style="text-align: center;" class="blinking-text">!!Ngfor in angular 16!!</h1>
+<h2 style="text-align: center;">!! Welcome To {{title}}!!</h2>
+<div >
+  <ul>
+    <li *ngFor="let Student of Students; let i = index; let f=first;let l = last; let ev = even; let o = odd"> 
+      {{i+1}} - {{Student.name}} - {{f}}  - {{l}} = {{ev}} - {{o}}</li>
+  </ul>
+
+</div>
